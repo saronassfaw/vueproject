@@ -1,0 +1,25 @@
+body {
+  background-image: url('../components/images/background1.png');
+  background: cover;
+  background-size: cover;
+}
+
+
+#app {
+  display: flex;
+  height: 100vh;
+  padding: 0;
+  flex: 1;
+}
+
+a,
+.blue {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: 0.4s;
+}
+@font-face {
+  font-family: myFont;
+  src: url('icons/Rosalia.otf');
+}
+
